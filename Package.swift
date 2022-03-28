@@ -29,7 +29,7 @@ let package = Package(
                 .product(name: "Apollo", package: "apollo-ios"),
                 .product(name: "ApolloWebSocket", package: "apollo-ios")
             ],
-            resources: [.copy("Data/Model")]
+            resources: [.copy("Data/Model/PDFTronCollaborationAnnotationModel.xcdatamodeld/")]
         )
     ]
 )
