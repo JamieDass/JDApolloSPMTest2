@@ -28,8 +28,7 @@ let package = Package(
                 .product(name: "PDFTron", package: "pdftron-apple-package"),
                 .product(name: "Apollo", package: "apollo-ios"),
                 .product(name: "ApolloWebSocket", package: "apollo-ios")
-            ],
-            resources: [.copy("Data/Model/PDFTronCollaborationAnnotationModel.xcdatamodeld/")]
+            ]
         )
     ]
 )
