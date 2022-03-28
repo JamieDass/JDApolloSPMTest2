@@ -10,6 +10,9 @@ import CoreData
 // Subclass to prevent the entity from being public
 class CollabAnnotation: NSManagedObject {
     override class func entity() -> NSEntityDescription {
-        return super.entity()
+        let description = NSEntityDescription()
+        description.name = "CollabAnnotation"
+        description.managedObjectClassName = "CollabAnnotation"
+        return description
     }
 }
