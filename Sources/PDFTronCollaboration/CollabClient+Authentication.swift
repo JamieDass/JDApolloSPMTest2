@@ -3,6 +3,8 @@
 // Consult legal.txt regarding legal and license information.
 //---------------------------------------------------------------------------------------
 
+import Foundation
+
 @objc public extension CollabClient
 {
     // MARK: Login Actions
