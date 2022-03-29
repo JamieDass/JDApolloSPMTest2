@@ -1,5 +1,0 @@
-mutation DeleteAnnotation($id: ID!) {
-        deleteAnnotation(id: $id) {
-         id
-       }
-     }

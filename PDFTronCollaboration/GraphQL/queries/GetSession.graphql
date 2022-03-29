@@ -1,7 +1,0 @@
-query GetSession {
-        session {
-          id 
-          userName
-          token
-        }
-      }

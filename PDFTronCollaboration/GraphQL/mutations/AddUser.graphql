@@ -1,8 +1,0 @@
-mutation AddUser($input: NewUserInput!) {
-       addUser(input: $input) {
-        id 
-        email
-        type 
-        userName
-       }
-     }
