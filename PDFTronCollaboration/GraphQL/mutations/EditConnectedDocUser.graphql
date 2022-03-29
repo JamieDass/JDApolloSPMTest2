@@ -1,6 +1,0 @@
-mutation EditConnectedDocUser($input: EditConnectedDocUserInput!) {
-        editConnectedDocUser(input: $input) {
-          userId
-          currentPage
-        }
-      }

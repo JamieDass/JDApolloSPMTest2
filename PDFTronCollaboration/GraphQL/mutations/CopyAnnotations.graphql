@@ -1,3 +1,0 @@
-mutation CopyAnnotations($fromDocId: ID!, $toDocId: ID!) {
-        copyAnnotations(fromDocId: $fromDocId, toDocId: $toDocId)
-     }

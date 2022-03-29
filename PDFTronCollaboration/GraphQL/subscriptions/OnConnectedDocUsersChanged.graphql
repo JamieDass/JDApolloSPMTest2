@@ -1,9 +1,0 @@
-subscription OnConnectedDocUsersChanged($docId: ID!) {
-        connectedDocUsersChanged(docId: $docId) {
-          connectedDocUsers {
-            userId
-            currentPage
-          }
-          action
-        }
-      }

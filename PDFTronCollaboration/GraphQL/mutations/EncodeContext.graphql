@@ -1,5 +1,0 @@
-mutation EncodeContext($context: String!, $action: EncodeContextActions!) {
-        encodeContext(context: $context, action: $action) {
-          token
-        }
-     }

@@ -1,6 +1,0 @@
-mutation DeleteMention($userId: ID!, $annotationId: ID!) {
-        deleteMention(userId: $userId, annotationId: $annotationId) {
-          successful
-          message
-        }
-      }

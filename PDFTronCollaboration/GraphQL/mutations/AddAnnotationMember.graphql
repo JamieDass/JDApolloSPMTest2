@@ -1,8 +1,0 @@
-mutation AddAnnotationMember($input: NewAnnotationMemberInput!) {
-        addAnnotationMember(input: $input) {
-          id 
-          annotationId
-          documentId
-          lastRead
-        }
-      }
