@@ -9,6 +9,6 @@ import CoreData
 
 // Subclass to prevent the entity from being public
 @objc(CollabAnnotation)
-public class CollabAnnotation: NSManagedObject {
+class CollabAnnotation: NSManagedObject {
 
 }
