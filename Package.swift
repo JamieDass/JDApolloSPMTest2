@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -34,6 +34,7 @@ let package = Package(
                 .product(name: "PDFTron", package: "pdftron-apple-package"),
                 .product(name: "Apollo", package: "apollo-ios"),
                 .product(name: "ApolloWebSocket", package: "apollo-ios")],
+            path: "PDFTronCollaboration",
             exclude: [
                 "GraphQL"
             ]
