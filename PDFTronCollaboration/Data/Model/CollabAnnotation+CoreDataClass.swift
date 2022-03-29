@@ -8,6 +8,6 @@ import Foundation
 import CoreData
 
 // Subclass to prevent the entity from being public
-class CollabAnnotation: NSManagedObject {
+public class CollabAnnotation: NSManagedObject {
 
 }
