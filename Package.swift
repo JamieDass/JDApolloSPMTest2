@@ -31,11 +31,7 @@ let package = Package(
                     .product(name: "Apollo", package: "apollo-ios"),
                     .product(name: "ApolloWebSocket", package: "apollo-ios")
                 ],
-                path: "PDFTronCollaboration",
-                exclude: ["GraphQL",
-                          "Scripts",
-                          "introspection_response.json"
-                         ]
+                path: "PDFTronCollaboration/Sources"
                )
     ]
 )

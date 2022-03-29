@@ -59,7 +59,7 @@ struct SwiftScript: ParsableCommand {
             // Get the root of the target for which you want to generate code.
             // TODO: Replace the placeholder here with the name of of the folder containing your project's code files.
             let targetRootURL = fileStructure.sourceRootURL
-                .apollo.childFolderURL(folderName: "PDFTronCollaboration")
+                .apollo.childFolderURL(folderName: "PDFTronCollaboration/GraphQL")
             
             // Make sure the folder exists before trying to generate code.
             try FileManager.default.apollo.createFolderIfNeeded(at: targetRootURL)
